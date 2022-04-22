@@ -1,0 +1,114 @@
+.header {
+	margin-top: 0 auto;
+	/* padding: 10px; */
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: rgb(200, 16, 46);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  
+}
+.header__left {
+	/* border: 1px solid rgb(194, 206, 206); */
+	padding: 8px;
+	/* flex: 0.2; */
+	position: relative;
+}
+.header__left__items {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	/* border: 1px solid rgb(77, 24, 162); */
+}
+.header__left__items > li {
+	list-style: none;
+	cursor: pointer;
+	margin-right: 15px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 8px 16px;
+	padding: 5px;
+}
+.header__left__items > li:hover {
+	text-decoration: underline;
+    text-decoration-thickness: 2.5px;
+}
+.header__logo {
+	object-fit: contain;
+    /* pointer-events: none; */
+    cursor: pointer;
+	height: 30px;
+	width: 160px;
+	background-color: rgb(200, 16, 46);
+	/* flex: 0.6; */
+}
+
+.header__right {
+	/* background-color: rgb(171, 134, 141); */
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: space-between;
+	/* flex: 0.2; */
+	margin-right: 20px;
+	padding: 8px 16px;
+    position: relative;
+}
+.button__signin {
+	/* border: 1px solid black; */
+	border-radius: 80px;
+	padding: 8px 20px;
+	background-color: white;
+    font-size: 14px;
+	font-weight: 600;
+	color: rgb(200, 16, 46);
+	cursor: pointer;
+	margin-right: 15px;
+	cursor: pointer;
+    transition: all 0.125s ease 0s;
+}
+.button__signin:hover {
+	background-color: lightpink;
+}
+.button__cart {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	/* border: 1px solid black; */
+	border-radius: 80px;
+	padding: 8px 20px;
+	/* margin-left: -50px; */
+	background-color: rgb(200, 16, 46);
+	cursor: pointer;
+    font-size: 14px;
+    transition: all 0.125s ease 0s;
+}
+.button__cart:hover {
+	background-color: rgba(88, 19, 31, 0.532);
+}
+.button__cart > p {
+	margin-left: 8px;
+	color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.button__cart > .MuiSvgIcon-root {
+	color: white !important;
+    font-size: 16px !important;
+}
+
+.triangle {
+	position: absolute;
+	top: 65px;
+	left: 310px;
+	display: inline-block;
+	width: 30px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0 20px 20px 20px;
+	border-color: transparent transparent white transparent;
+	z-index: 200;
+}
