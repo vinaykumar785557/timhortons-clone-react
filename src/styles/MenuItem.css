@@ -1,0 +1,26 @@
+.menuItem {
+	/* border: 1px solid black; */
+	width: 280px;
+	height: auto;
+	margin-bottom: 80px;
+	margin-left: 40px;
+	margin-right: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+    cursor: pointer;
+}
+.menuItem__image {
+	object-fit: contain;
+	width: 260px;
+	height: 260px;
+	margin-bottom: 20px;
+	object-position: center center;
+}
+.menuItem__title {
+	color: #3f2021;
+	font-size: 18px;
+	margin: 0 0 8px;
+	font-weight: bold;
+}

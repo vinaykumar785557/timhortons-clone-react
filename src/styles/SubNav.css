@@ -12,6 +12,7 @@
 	left: 150px;
 	border-top: none;
 	/* z-index: 50; */
+	background-color: white;
 }
 .subnav__list {
 	list-style: none;
