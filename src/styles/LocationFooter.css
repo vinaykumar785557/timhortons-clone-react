@@ -13,6 +13,7 @@
 .locationFooter > .MuiSvgIcon-root {
 	/* flex: 0.1 !important; */
 	color: rgb(63, 32, 33);
+	cursor: pointer !important;
 }
 .locationFooter__searchBar {
 	/* border: 1px solid rgb(184, 53, 53); */
@@ -52,6 +53,7 @@
 .locationFooter__cart > .MuiSvgIcon-root {
 	color: white !important;
 	font-size: 16px !important;
+	cursor: pointer !important;
 }
 .location__text {
 	font-weight: 500;
