@@ -1,0 +1,60 @@
+.storelocator {
+	/* border: 1px solid black; */
+	margin-top: 82px;
+	/* height: 2000px; */
+}
+.storelocator__header {
+	/* border: 1px solid black; */
+	background: rgb(200, 16, 46);
+	color: rgb(255, 255, 255);
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	/* position: relative; */
+}
+.storelocator__header > h1 {
+	/* flex: 0.9; */
+	margin-top: 12px;
+	margin-bottom: 12px;
+	/* margin-left: 200px; */
+	/* border: 1px solid black; */
+	text-align: center;
+	width: 20%;
+	/* margin-right: 250px; */
+}
+.storelocator__button__wrapper {
+	/* flex: 0.1; */
+	/* flex: 0.9; */
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* border: 1px solid rgb(212, 156, 156); */
+	/* padding: 8px; */
+	margin-top: 16px;
+	margin-bottom: 16px;
+	/* position: absolute;
+  right: 50px; */
+	margin-right: 230px;
+}
+.storelocator__button__wrapper > button {
+	background: rgb(200, 16, 46);
+	color: rgb(255, 255, 255);
+	border: none;
+	font-size: 20px;
+	font-weight: bold;
+	/* position: relative;
+	right: -400px; */
+	border-radius: 80px;
+	cursor: pointer;
+	/* width: 100%; */
+	padding: 18px;
+}
+.storelocator__button__wrapper > button > span > .MuiSvgIcon-root {
+	vertical-align: middle !important;
+	padding: 0px !important ;
+	margin-left: 5px;
+}
+.storelocator__button__wrapper > button:hover {
+	background-color: rgb(136, 10, 30);
+}
