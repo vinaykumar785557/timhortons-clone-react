@@ -1,0 +1,95 @@
+.locationtabs {
+	/* border: 1px solid black; */
+	width: 70%;
+	background: rgb(249, 245, 238);
+	margin: 0 auto;
+	padding: 16px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.locationtabs__buttons {
+	/* border: 1px solid coral; */
+	width: 80%;
+	padding: 16px;
+	display: flex;
+}
+.btn__nearby {
+	width: inherit;
+	padding: 16px 32px;
+	font-size: 18px;
+	color: rgb(63, 32, 33);
+	font-weight: bold;
+	background: rgb(249, 245, 238);
+	border: none;
+	cursor: pointer;
+	/* border: 1px solid rebeccapurple; */
+	/* border-bottom: 2px solid #c8201e; */
+	border-bottom: 1px solid lightgray;
+}
+.btn__favs {
+	width: inherit;
+	padding: 16px 32px;
+	font-size: 18px;
+	color: rgb(63, 32, 33);
+	font-weight: bold;
+	background: rgb(249, 245, 238);
+	border: none;
+	cursor: pointer;
+	/* border: 1px solid rebeccapurple; */
+	border-bottom: 1px solid lightgray;
+}
+.btn__recent {
+	width: inherit;
+	padding: 16px 32px;
+	font-size: 18px;
+	color: rgb(63, 32, 33);
+	font-weight: bold;
+	background: rgb(249, 245, 238);
+	border: none;
+	cursor: pointer;
+	/* border: 1px solid rebeccapurple; */
+	border-bottom: 1px solid lightgray;
+}
+
+.locationtabs__choices {
+	/* border: 1px solid crimson; */
+	width: 80%;
+	margin-top: 25px;
+	padding: 16px 40px;
+	text-align: center;
+}
+.locationtabs__choices > h1 {
+	margin: 16px 0px;
+	color: rgb(63, 32, 33);
+}
+
+.locationtabs__choices > p {
+	margin: 30px 0px;
+	color: rgb(63, 32, 33);
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.btn {
+	background-color: #c8201e;
+	padding: 12px 48px;
+	color: white;
+	font-size: 20px;
+	border-radius: 80px;
+	border: none;
+	transition: all 0.2s ease-in;
+	cursor: pointer;
+}
+.btn:hover {
+	background-color: rgb(136, 10, 30);
+}
+.choice__icon > .MuiSvgIcon-root {
+	font-size: 180px !important;
+	color: #c8201e;
+}
+
+.active {
+	border-bottom: 2px solid #c8201e;
+}
