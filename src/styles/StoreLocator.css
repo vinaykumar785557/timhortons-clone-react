@@ -3,6 +3,8 @@
 	margin-top: 82px;
 	/* height: 2000px; */
 	background: rgb(249, 245, 238);
+	height: 100vmin;
+	overflow: hidden;
 }
 .storelocator__header {
 	/* border: 1px solid black; */

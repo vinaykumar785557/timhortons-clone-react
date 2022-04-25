@@ -1,19 +1,20 @@
 .signin {
 	background-color: rgb(249, 245, 238);
 	display: flex;
+	/* height: 100vmin;
+	overflow: hidden; */
 }
 .signin__leftside__image {
 	width: 50%;
 	height: auto;
 	object-fit: contain;
-	
 }
 
 .signin__rightside__image {
 	width: 100px;
 	object-fit: contain;
 	background-color: rgb(249, 245, 238);
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .signin__rightside {
