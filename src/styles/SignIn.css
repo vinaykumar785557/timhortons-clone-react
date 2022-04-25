@@ -1,0 +1,108 @@
+.signin {
+	background-color: rgb(249, 245, 238);
+	display: flex;
+}
+.signin__leftside__image {
+	width: 50%;
+	height: auto;
+	object-fit: contain;
+	
+}
+
+.signin__rightside__image {
+	width: 100px;
+	object-fit: contain;
+	background-color: rgb(249, 245, 238);
+    cursor: pointer;
+}
+
+.signin__rightside {
+	/* border: 1px solid black; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* display: grid;
+    place-items: center; */
+	/* text-align: center; */
+	width: 50%;
+	height: 50%;
+	margin: auto;
+}
+.signin__rightside__card {
+	background-color: white;
+	margin-top: 16px;
+	/* padding: 12px 0px 40px; */
+	width: 450px;
+	height: 450px;
+	/* border: 1px solid violet; */
+	padding: 16px;
+	border-radius: 30px;
+}
+
+.sign {
+	/* border: 1px solid green; */
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 32px;
+}
+.sign__left {
+	flex: 0.5;
+	font-size: 16px;
+	font-weight: bold;
+	color: #3f2021;
+	padding: 8px;
+	background-color: white;
+	border: none;
+	cursor: pointer;
+	/* border: 1px solid coral; */
+}
+.sign__right {
+	flex: 0.5;
+	font-size: 16px;
+	font-weight: bold;
+	color: #3f2021;
+	padding: 8px;
+	background-color: white;
+	border: none;
+	cursor: pointer;
+	/* border: 1px solid coral; */
+	border-bottom: 2px solid #c8102e;
+}
+.inputfield {
+	/* border: 1px solid green; */
+	margin-bottom: 32px;
+}
+
+.signin__button {
+	/* border: 1px solid coral; */
+	margin-bottom: 32px;
+}
+.signin__button > button {
+	width: 100%;
+	padding: 16px;
+	font-size: 16px;
+	border-radius: 80px;
+	background-color: #c8102e;
+	border: none;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 0.2s ease-in;
+}
+.signin__button > button:hover {
+	background-color: rgb(136, 10, 30);
+}
+.language {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #3f2021;
+	cursor: pointer;
+}
+
+.language > p {
+	margin: 0px 8px;
+}
